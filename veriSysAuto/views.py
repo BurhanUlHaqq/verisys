@@ -7,3 +7,6 @@ def dashboard(request,name):
 
 def home(request):
     return render(request,'dashboard.html',{'name':'this is home page','title':'Dashboard'})
+
+def login(request):
+    return render(request,'login.html',{'title':'Login'})
